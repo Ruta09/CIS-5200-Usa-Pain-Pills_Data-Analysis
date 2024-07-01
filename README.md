@@ -1,10 +1,8 @@
 # Pain_Pills-Data_Analysis-using-Hive
-The Pain pill database is maintained by the Drug Enforcement Department. The Department tracks all painkillers that manufacturers and distributors sell to pharmacies in all cities in the United States. The database also contains the information about the number of people consuming them in particular states and cities in the USA.
+# Problem Statement 
+The Pain Pill database, managed by the DEA, tracks extensive information on the distribution of oxycodone and hydrocodone from 2006 to 2014. The database shows that these painkillers account for three-quarters of all opioid shipments to pharmacies. The challenge is to perform a detailed county-level analysis to quantify the distribution of these drugs and to identify the companies and distributors responsible for the majority of these transactions. Such analysis is essential to address the public health impact of opioid distribution across different regions.
 
-Approximately 500 million transactions from 2006 to 2014 were listed in the DEA database and analyzed oxycodone and hydrocodone pill shipments, which account for three-quarters of total opioid pill shipments to pharmacies. 
-
-A county-level analysis of cumulative data shows where most oxycodone and hydrocodone tablets were distributed nationwide during this period: over 100 billion in total. With this database, readers can see how much hydrocodone and oxycodone went to individual states and counties, and which companies and distributors were responsible. 
-
+# Workflow
 Data Ingestion
 Imported data into the Hadoop Distributed File System (HDFS).
 
